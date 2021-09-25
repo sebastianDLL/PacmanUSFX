@@ -7,7 +7,6 @@ Pared::Pared(Tile* _tile, Texture* _textura) :
 	tileActual = _tile;
 	if (tileActual != nullptr) {
 		tileActual->setPared(this);
-
 		posicionX = tileActual->getPosicionX() * Tile::anchoTile;
 		posicionY = tileActual->getPosicionY() * Tile::altoTile;
 
